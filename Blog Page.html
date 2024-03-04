@@ -1,0 +1,810 @@
+<html>
+
+<head>
+    <title>
+        Blog Page
+    </title>
+    <style>
+        .Header {
+            margin-top: 40px;
+        }
+
+        .InternoLogo {
+            position: absolute;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-left: 361px;
+        }
+
+        nav {
+            margin-left: 900px;
+            width: 624px;
+            height: 25px;
+        }
+
+        ul {
+            list-style-type: none;
+            word-spacing: 41px;
+        }
+
+        li {
+            display: inline-block;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        li img {
+            width: 21px;
+            height: 21px;
+            opacity: 80%;
+            align-items: center;
+            padding-top: 12px;
+        }
+
+        .KitchenAndAboutUs {
+            margin-top: 100px
+        }
+
+        .KitchenAndAboutUs img {
+            position: relative;
+            width: 1920px;
+            height: 356px;
+        }
+
+        .AboutUsSection {
+            position: absolute;
+            width: 503px;
+            height: 181px;
+            top: 47%;
+            margin-left: 708px;
+            border-radius: 37px 37px 0px 0px;
+            gap: 10px;
+            background-color: white;
+        }
+
+        .AboutUs {
+            width: 347px;
+            height: 96px;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        .AboutUsText {
+            width: 347px;
+            height: 63px;
+            font-family: serif;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 63px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .HomeAboutUs {
+            width: 125px;
+            height: 33px;
+            font-family: serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            margin: auto;
+        }
+
+        .Blog {
+            width: 1201px;
+            height: 2030px;
+            margin-left: 360px;
+            margin-top: 127px;
+        }
+
+        .LatestPost {
+            width: 1201px;
+            height: 612px;
+        }
+
+        .LatestPostText {
+            width: 252px;
+            height: 63px;
+            font-family: serif;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 63px;
+            letter-spacing: 0.02em;
+            text-align: left;
+        }
+
+        .LatestPostContent {
+            width: 1201px;
+            height: 522px;
+            border-radius: 62px;
+            border: 1px solid #E7E7E7;
+        }
+
+        .Post {
+            width: 1157px;
+            height: 478px;
+            padding: 22px;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .LatestPostImage img {
+            width: 569px;
+            height: 478px;
+        }
+
+        .Content {
+            width: 489px;
+            height: 375px;
+            padding-top: 41px
+        }
+
+        .LowCost {
+            width: 463px;
+            height: 62px;
+            font-family: serif;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 31px;
+            letter-spacing: 0.02em;
+            text-align: left;
+        }
+
+        .LoremIpsum {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            margin-top: 40px;
+        }
+
+        .LoremIpsumText {
+            margin-top: 30px;
+            width: 469px;
+            height: 198px;
+        }
+
+        .DateAndVector {
+            width: 489px;
+            height: 52px;
+            margin-top: 34px;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .Date {
+            width: 223px;
+            height: 33px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            padding-top: 12px;
+        }
+
+        .Vector {
+            width: 52px;
+            height: 52px;
+            background-color: #F4F0EC;
+            clip-path: circle();
+        }
+
+        .Vector img {
+            width: 20px;
+            height: 18px;
+            top: 44px;
+            left: 517px;
+            border: 2px;
+            text-align: center;
+            padding-top: 16px;
+            padding-left: 15px;
+        }
+
+        .ArticlesAndNewsSection{
+            width: 1201px;
+height: 1268px;
+        }
+
+        .ArticlesAndNewsText{
+            font-family:serif;
+font-size: 50px;
+font-weight: 400;
+line-height: 63px;
+letter-spacing: 0.02em;
+text-align: left;
+        }
+
+        .Bow{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 20px;
+            margin-top: 30px;
+        }
+
+        .One{
+            width: 382px;
+height: 521px;
+border-radius: 62px;
+border: 1px solid #E7E7E7;
+        }
+
+        .OneContent{
+            width: 340px;
+height: 479px;
+            padding: 21px;
+            position: relative;
+        }
+
+        .OneContent img{
+            width: 340px;
+height: 289.27px;
+border-top-left-radius: 62px;
+border-top-right-radius: 62px;
+
+        }
+
+        .KitchenDesign{
+width: 124px;
+height: 40px;
+top: 248px;
+left: 30px;
+border-radius: 8px 8px 8px 0px;
+gap: 10px;
+background-color: white;
+position: absolute;
+        }
+
+        .KitchenDesignText{
+            font-family: serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.01em;
+text-align: center;
+padding: 8px 10px 8px 10px;
+        }
+
+        .SubContent{
+            width: 340px;
+height: 165px;
+padding-top: 20px;
+        }
+
+        .LetsGetSol{
+            width: 305px;
+height: 93px;
+font-family: sans-serif;
+font-size: 25px;
+font-weight: 600;
+line-height: 31px;
+letter-spacing: 0.02em;
+text-align: left;
+        }
+
+        .ArticleDateAndVector{
+            width: 340px;
+height: 52px;
+display: grid;
+grid-template-columns: auto auto;
+padding-top: 10px;
+column-gap: 60px;
+        }
+
+        .ArticleVector img{
+            width: 20px;
+            height: 18px;
+            top: 44px;
+            left: 517px;
+            border: 2px;
+            text-align: center;
+            padding-top: 16px;
+            padding-left: 15px;
+        }
+
+        .ArticleVector {
+            width: 52px;
+            height: 52px;
+            background-color: #F4F0EC;
+            clip-path: circle();
+        }
+
+        .Two{
+            width: 382px;
+height: 521px;
+border-radius: 62px;
+border: 1px solid #E7E7E7;
+background: #F4F0EC;
+        }
+
+        .ArticleVector1{
+            width: 52px;
+            height: 52px;
+            background-color: #FFFFFF;
+            clip-path: circle();
+        }
+
+        .ArticleVector1 img{
+            width: 10px;
+            height: 13.37px;
+            padding-top: 18px;
+            padding-left: 22px;
+        }
+
+        .Pagination {
+            padding-top: 40px;
+            width: 268px;
+height: 52px;
+            margin: auto;
+        }
+
+        .PaginationContent {
+            display: flex;
+            flex-direction: row;
+            column-gap: 12px;
+        }
+
+        .Eclipse {
+            width: 52px;
+            height: 52px;
+            background: #F4F0EC;
+            clip-path: circle();
+        }
+
+        .Eclipse1 {
+            width: 52px;
+            height: 52px;
+            border: 1px solid #CDA274;
+            border-radius: 50%;
+        }
+
+        .Numbering {
+            width: 18px;
+            height: 24px;
+            padding-top: 13px;
+            padding-left: 17px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .Numbering img {
+            width: 5.94px;
+            height: 13.37px;
+            padding-top: 5px;
+            padding-left: 2px;
+        }
+
+        .Footer {
+            margin-left: 360px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 110px;
+        }
+
+        .FooterInternoLogo {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .ItsalongEstablishedTextInFooter {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 393px;
+            height: 66px;
+            margin-top: 20px;
+        }
+
+        .fIcon {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0.055em;
+        }
+
+        .Icons {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 80px 80px 80px 80px;
+        }
+
+        .PageSingle {
+            font-family: sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .PagesList {
+            display: grid;
+            grid-template-rows: auto auto auto auto auto;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 66px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 125px;
+        }
+
+        .ContactsList {
+            margin-top: 12px;
+            display: grid;
+            grid-template-rows: auto auto auto;
+            row-gap: 52px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+        }
+
+        .EastBirchwood {
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Header">
+        <div class="InternoLogo">
+            <img src="Logo (1).jpg">
+            Interno
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    Home
+                </li>
+                <li>
+                    Pages
+                </li>
+                <li>
+                    Services
+                </li>
+                <li>
+                    Project
+                </li>
+                <li>
+                    Blog
+                </li>
+                <li>
+                    Contact
+                </li>
+                <li>
+                    <img src="Search.jpg">
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="KitchenAndAboutUs">
+        <img src="BlogPhoto.jpg">
+        <div class="AboutUsSection">
+            <div class="AboutUs">
+                <div class="AboutUsText">
+                    Articles & News
+                </div>
+                <div class="HomeAboutUs">
+                    Home / Blog
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Blog">
+        <div class="LatestPost">
+            <div class="LatestPostText">
+                Latest Post
+            </div>
+            <div class="LatestPostContent">
+                <div class="Post">
+                    <div class="LatestPostImage">
+                        <img src="LatestPostImage.jpg">
+                    </div>
+                    <div class="Content">
+                        <div class="LowCost">
+                            Low Cost Latest Invented Interior Designing Ideas
+                        </div>
+                        <div class="LoremIpsumText">
+                            <div class="LoremIpsum">
+                                Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpis dignissim
+                                maximus.posuere in.Contrary to popular belief.
+                            </div>
+                            <div class="LoremIpsum">
+                                Lorem Ipsum is not simply random text. It has roots in a piece of classica.
+                            </div>
+                        </div>
+                        <div class="DateAndVector">
+                            <div class="Date">
+                                27 February,2024
+                            </div>
+                            <div class="Vector">
+                                <img src="Vector_on_Beige.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ArticlesAndNewsSection">
+            <div class="ArticlesAndNewsText">
+                Articles & News
+            </div>
+            <div class="Bow">
+                <div class="One">
+                    <div class="OneContent">
+                        <img src="Article&NewsImage1.jpg">
+                        <div class="KitchenDesign">
+                            <div class="KitchenDesignText">
+                                Kitchen Design
+                            </div>
+                        </div>
+                        <div class="SubContent">
+                            <div class="LetsGetSol">
+                                Let’s Get Solution For Building Construction Work
+                            </div>
+                            <div class="ArticleDateAndVector">
+                                <div class="Date">
+                                    27 February,2024
+                                </div>
+                                <div class="ArticleVector">
+                                    <img src="Vector_on_Beige.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Two">
+                    <div class="OneContent">
+                        <img src="Articles&NewsImage2.png">
+                        <div class="KitchenDesign">
+                            <div class="KitchenDesignText">
+                                Living Design
+                            </div>
+                        </div>
+                        <div class="SubContent">
+                            <div class="LetsGetSol">
+                                Low Cost Latest Invented Interior Designing Ideas.
+                            </div>
+                            <div class="ArticleDateAndVector">
+                                <div class="Date">
+                                    27 February,2024
+                                </div>
+                                <div class="ArticleVector1">
+                                    <img src="VectorOnWhite.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="One">
+                    <div class="OneContent">
+                        <img src="Article&NewsImage3.jpg">
+                        <div class="KitchenDesign">
+                            <div class="KitchenDesignText">
+                                Interior Design
+                            </div>
+                        </div>
+                        <div class="SubContent">
+                            <div class="LetsGetSol">
+                                Best For Any Office & Business Interior Solution
+                            </div>
+                            <div class="ArticleDateAndVector">
+                                <div class="Date">
+                                    27 February,2024
+                                </div>
+                                <div class="ArticleVector">
+                                    <img src="Vector_on_Beige.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Bow">
+                <div class="One">
+                    <div class="OneContent">
+                        <img src="Article&NewsImage4.jpg">
+                        <div class="KitchenDesign">
+                            <div class="KitchenDesignText">
+                                Kitchen Design
+                            </div>
+                        </div>
+                        <div class="SubContent">
+                            <div class="LetsGetSol">
+                                Let’s Get Solution For Building Construction Work
+                            </div>
+                            <div class="ArticleDateAndVector">
+                                <div class="Date">
+                                    27 February,2024
+                                </div>
+                                <div class="ArticleVector">
+                                    <img src="Vector_on_Beige.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="One">
+                    <div class="OneContent">
+                        <img src="Article&NewsImage5.jpg">
+                        <div class="KitchenDesign">
+                            <div class="KitchenDesignText">
+                                Living Design
+                            </div>
+                        </div>
+                        <div class="SubContent">
+                            <div class="LetsGetSol">
+                                Low Cost Latest Invented Interior Designing Ideas.
+                            </div>
+                            <div class="ArticleDateAndVector">
+                                <div class="Date">
+                                    27 February,2024
+                                </div>
+                                <div class="ArticleVector">
+                                    <img src="Vector_on_Beige.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="One">
+                    <div class="OneContent">
+                        <img src="Article&NewsImage6.jpg">
+                        <div class="KitchenDesign">
+                            <div class="KitchenDesignText">
+                                Interior Design
+                            </div>
+                        </div>
+                        <div class="SubContent">
+                            <div class="LetsGetSol">
+                                Best For Any Office & Business Interior Solution
+                            </div>
+                            <div class="ArticleDateAndVector">
+                                <div class="Date">
+                                    27 February,2024
+                                </div>
+                                <div class="ArticleVector">
+                                    <img src="Vector_on_Beige.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Pagination">
+                <div class="PaginationContent">
+                    <div class="Eclipse">
+                        <div class="Numbering">
+                            01
+                        </div>
+                    </div>
+                    <div class="Eclipse1">
+                        <div class="Numbering">
+                            02
+                        </div>
+                    </div>
+                    <div class="Eclipse1">
+                        <div class="Numbering">
+                            03
+                        </div>
+                    </div>
+                    <div class="Eclipse1">
+                        <div class="Numbering">
+                            <img src="PaginationVector.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Footer">
+        <div>
+            <div class="FooterInternoLogo">
+                <img src="Logo (1).jpg">
+                Interno
+            </div>
+            <div class="ItsalongEstablishedTextInFooter">
+                It is a long established fact that a reader will be distracted lookings.
+            </div>
+            <div class="Icons">
+                <div class="fIcon">
+                    <img src="Facebook.jpg">
+                </div>
+                <div>
+                    <img src="Twitter.jpg">
+                </div>
+                <div>
+                    <img src="Linkedin.jpg">
+                </div>
+                <div>
+                    <img src="Insta.jpg">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PageSingle">
+                Pages
+            </div>
+            <div class="PagesList">
+                <div>
+                    About Us
+                </div>
+                <div>
+                    Our Projects
+                </div>
+                <div>
+                    Our Team
+                </div>
+                <div>
+                    Contact Us
+                </div>
+                <div>
+                    Services
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PageSingle">
+                Services
+            </div>
+            <div class="PagesList">
+                <div>
+                    Kitchen
+                </div>
+                <div>
+                    Living Area
+                </div>
+                <div>
+                    Bathroom
+                </div>
+                <div>
+                    Dinning Hall
+                </div>
+                <div>
+                    Bedroom
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PageSingle">
+                Contact
+            </div>
+            <div class="ContactsList">
+                <div class="EastBirchwood">
+                    55 East Birchwood Ave. Brooklyn, New York 11201
+                </div>
+                <div>
+                    contact@interno.com
+                </div>
+                <div>
+                    (123) 456 - 7890
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

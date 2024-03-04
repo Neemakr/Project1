@@ -1,0 +1,707 @@
+<html>
+
+<head>
+    <title>
+        Services Page
+    </title>
+    <style>
+        .Header {
+            margin-top: 40px;
+        }
+
+        .InternoLogo {
+            position: absolute;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-left: 361px;
+        }
+
+        nav {
+            margin-left: 900px;
+            width: 624px;
+            height: 25px;
+        }
+
+        ul {
+            list-style-type: none;
+            word-spacing: 41px;
+        }
+
+        li {
+            display: inline-block;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        li img {
+            width: 21px;
+            height: 21px;
+            opacity: 80%;
+            align-items: center;
+            padding-top: 12px;
+        }
+
+        .KitchenAndAboutUs {
+            margin-top: 100px
+        }
+
+        .KitchenAndAboutUs img {
+            position: relative;
+            width: 1920px;
+            height: 356px;
+        }
+
+        .AboutUsSection {
+            position: absolute;
+            width: 203px;
+            height: 108px;
+            top: 47%;
+            margin-left: 708px;
+            padding: 41px 152px 41px 152px;
+            border-radius: 37px 37px 0px 0px;
+            gap: 10px;
+            background-color: white;
+        }
+
+        .AboutUs {
+            width: 399px;
+            height: 63px;
+            font-family: sans-serif;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 63px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .HomeAboutUs {
+            width: 199px;
+            height: 33px;
+            font-family: sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: center;
+        }
+
+        .Services {
+            width: 1158px;
+            height: 704px;
+            margin-top: 95px;
+            margin-left: 382px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 225px 391px;
+            row-gap: 88px;
+        }
+
+        .ProjectPlan {
+            font-family: serif;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .ThereAreManyVariations {
+            width: 358px;
+            height: 99px;
+            font-family: serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .ProjectPlanSection {
+            width: 358px;
+            gap: 52px;
+            text-align: center;
+        }
+
+        .ReadMore {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        .InteriorWorkSection {
+            width: 398px;
+            height: 391px;
+            border-radius: 30px;
+            gap: 10px;
+            background: #F4F0EC;
+        }
+
+        .InteriorWorkSectionContent {
+            padding: 83px 20px 83px 20px;
+        }
+
+        .HowWeWorkSection {
+            width: 1199px;
+            height: 2718.42px;
+            top: 1599px;
+            margin-top: 180px;
+            margin-left: 360px;
+            border-radius: 70px;
+            gap: 10px;
+            background-color: #F4F0EC;
+        }
+
+        .HowWeWorkSectionContent {
+            padding: 160px 116px 160px 116px;
+        }
+
+        .HowWeWork {
+            font-family: serif;
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 63px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .Text {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            color: #4D5053;
+        }
+
+        .Works {
+            width: 967px;
+            gap: 70px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 120px;
+        }
+
+        .Work {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .WorkImage1 img {
+            width: 453px;
+            height: 485.6px;
+            border-radius: 0px 150px 0px 300px;
+        }
+
+        .WorkImage2 img {
+            width: 453px;
+            height: 485.6px;
+            border-radius: 0px 150px 0px 300px;
+            margin-left: 58px;
+        }
+
+        .Icon img {
+            width: 92px;
+            height: 92px
+        }
+
+        .Icon span {
+            font-family: serif;
+            font-size: 120px;
+            font-weight: 400;
+            line-height: 150px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #FFFFFF;
+            padding-left: 230px;
+        }
+
+        .ConceptAndDetails {
+            font-family: serif;
+            font-size: 35px;
+            font-weight: 400;
+            line-height: 44px;
+            letter-spacing: 0em;
+            width: 288px;
+            height: 44px;
+            padding-top: 31px;
+        }
+
+        .WorkSectionItsALongEstablishedText {
+            width: 456px;
+            height: 99px;
+            font-family: sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            padding-top: 15px;
+        }
+
+        .ConceptAndDetailsSection {
+            padding-top: 51px;
+            margin-left: 58px;
+        }
+
+        .ConceptAndDetailsSection1 {
+            padding-top: 51px;
+        }
+
+        .WannaJoinSection {
+            margin-top: 128px;
+            margin-left: 340px;
+            width: 620px;
+            height: 250px;
+            left: 160px;
+            padding: 80px 315px 80px 315px;
+            border-radius: 70px;
+            gap: 10px;
+            background-color: black;
+        }
+
+        .WannaJoinTheInterno {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 63px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: white;
+        }
+
+        .ItsalongEstablished {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            color: white;
+        }
+
+        .ContactWithUsInWannaJoin {
+            width: 237.14px;
+            height: 75px;
+            border-radius: 18px;
+            gap: 10px;
+            background-color: #CDA274;
+            margin-left: 200px;
+            margin-top: 70px;
+        }
+
+        .ContactWithUsText {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: white;
+            padding: 26px 37px 26px 37px;
+        }
+
+        .Footer {
+            margin-left: 360px;
+            margin-top: 200px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 110px;
+        }
+
+        .FooterInternoLogo {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .ItsalongEstablishedTextInFooter {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 393px;
+            height: 66px;
+            margin-top: 20px;
+        }
+
+        .fIcon {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0.055em;
+        }
+
+        .Icons {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 80px 80px 80px 80px;
+        }
+
+        .PageSingle {
+            font-family: sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .PagesList {
+            display: grid;
+            grid-template-rows: auto auto auto auto auto;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 66px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 125px;
+        }
+
+        .ContactsList {
+            margin-top: 12px;
+            display: grid;
+            grid-template-rows: auto auto auto;
+            row-gap: 52px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+        }
+
+        .EastBirchwood {
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Header">
+        <div class="InternoLogo">
+            <img src="Logo (1).jpg">
+            Interno
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    Home
+                </li>
+                <li>
+                    Pages
+                </li>
+                <li>
+                    Services
+                </li>
+                <li>
+                    Project
+                </li>
+                <li>
+                    Blog
+                </li>
+                <li>
+                    Contact
+                </li>
+                <li>
+                    <img src="Search.jpg">
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="KitchenAndAboutUs">
+        <img src="ServicePhoto.jpg">
+        <div class="AboutUsSection">
+            <div class="AboutUs">
+                Services
+            </div>
+            <div class="HomeAboutUs">
+                Home / Services
+            </div>
+        </div>
+    </div>
+    <div class="Services">
+        <div class="ProjectPlanSection">
+            <div class="ProjectPlan">
+                Project Plan
+            </div>
+            <div class="ThereAreManyVariations">
+                There are many variations of the passages of lorem Ipsum from available, majority.
+            </div>
+            <div class="ReadMore">
+                Read More
+            </div>
+        </div>
+        <div class="ProjectPlanSection">
+            <div class="ProjectPlan">
+                Interior Work
+            </div>
+            <div class="ThereAreManyVariations">
+                There are many variations of the passages of lorem Ipsum from available, majority.
+            </div>
+            <div class="ReadMore">
+                Read More
+            </div>
+        </div>
+        <div class="ProjectPlanSection">
+            <div class="ProjectPlan">
+                Retail Design
+            </div>
+            <div class="ThereAreManyVariations">
+                There are many variations of the passages of lorem Ipsum from available, majority.
+            </div>
+            <div class="ReadMore">
+                Read More
+            </div>
+        </div>
+        <div class="ArtWork">
+            <div class="InteriorWorkSectionContent">
+                <div class="ProjectPlan">
+                    2d/3d Art Work
+                </div>
+                <div class="ThereAreManyVariations">
+                    There are many variations of the passages of lorem Ipsum from available, majority.
+                </div>
+                <div class="ReadMore">
+                    Read More
+                </div>
+            </div>
+        </div>
+        <div class="InteriorWorkSection">
+            <div class="InteriorWorkSectionContent">
+                <div class="ProjectPlan">
+                    Interior Work
+                </div>
+                <div class="ThereAreManyVariations">
+                    There are many variations of the passages of lorem Ipsum from available, majority.
+                </div>
+                <div class="ReadMore">
+                    Read More
+                </div>
+            </div>
+        </div>
+        <div class="ProjectPlanSection">
+            <div class="InteriorWorkSectionContent">
+                <div class="ProjectPlan">
+                    Decoration Work
+                </div>
+                <div class="ThereAreManyVariations">
+                    There are many variations of the passages of lorem Ipsum from available, majority.
+                </div>
+                <div class="ReadMore">
+                    Read More
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="HowWeWorkSection">
+        <div class="HowWeWorkSectionContent">
+            <div class="HowWeWork">
+                How We Work
+            </div>
+            <div class="HowWeWorkItsALongEstablished">
+                <div class="Text">
+                    It is a long established fact will be distracted.Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.
+                </div>
+            </div>
+        </div>
+        <div class="Works">
+            <div class="Work">
+                <div class="WorkImage1">
+                    <img src="WorkImage1.jpg">
+                </div>
+                <div class="ConceptAndDetailsSection">
+                    <div class="Icon">
+                        <img src="Icon.png">
+                        <span>
+                            01
+                        </span>
+                    </div>
+                    <div class="ConceptAndDetails">
+                        Concept & Details
+                    </div>
+                    <div class="WorkSectionItsALongEstablishedText">
+                        It is a long established fact will be distracted. Lorem Ipsum is simply dummy from text of the
+                        and typesetting indufstry.
+                    </div>
+                </div>
+            </div>
+            <div class="Work">
+                <div class="ConceptAndDetailsSection1">
+                    <div class="Icon">
+                        <img src="Icon2.png">
+                        <span>
+                            02
+                        </span>
+                    </div>
+                    <div class="ConceptAndDetails">
+                        Idea for Work
+                    </div>
+                    <div class="WorkSectionItsALongEstablishedText">
+                        It is a long established fact will be distracted. Lorem Ipsum is simply dummy from text of the
+                        and typesetting indufstry.
+                    </div>
+                </div>
+                <div class="WorkImage2">
+                    <img src="WorkImage2.jpg">
+                </div>
+            </div>
+            <div class="Work">
+                <div class="WorkImage1">
+                    <img src="WorkImage3.jpg">
+                </div>
+                <div class="ConceptAndDetailsSection">
+                    <div class="Icon">
+                        <img src="Icon3.png">
+                        <span>
+                            03
+                        </span>
+                    </div>
+                    <div class="ConceptAndDetails">
+                        Design
+                    </div>
+                    <div class="WorkSectionItsALongEstablishedText">
+                        It is a long established fact will be distracted. Lorem Ipsum is simply dummy from text of the
+                        and typesetting indufstry.
+                    </div>
+                </div>
+            </div>
+            <div class="Work">
+                <div class="ConceptAndDetailsSection1">
+                    <div class="Icon">
+                        <img src="Icon4.png">
+                        <span>
+                            04
+                        </span>
+                    </div>
+                    <div class="ConceptAndDetails">
+                        Perfection
+                    </div>
+                    <div class="WorkSectionItsALongEstablishedText">
+                        It is a long established fact will be distracted. Lorem Ipsum is simply dummy from text of the
+                        and typesetting indufstry.
+                    </div>
+                </div>
+                <div class="WorkImage2">
+                    <img src="WorkImage4.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="WannaJoinSection">
+        <div class="WannaJoinTheInterno">
+            Wanna join the interno?
+        </div>
+        <div class="ItsalongEstablished">
+            It is a long established fact will be distracted.
+        </div>
+        <div class="ContactWithUsInWannaJoin">
+            <div class="ContactWithUsText">
+                Contact With Us
+            </div>
+        </div>
+    </div>
+    <div class="Footer">
+        <div>
+            <div class="FooterInternoLogo">
+                <img src="Logo (1).jpg">
+                Interno
+            </div>
+            <div class="ItsalongEstablishedTextInFooter">
+                It is a long established fact that a reader will be distracted lookings.
+            </div>
+            <div class="Icons">
+                <div class="fIcon">
+                    <img src="Facebook.jpg">
+                </div>
+                <div>
+                    <img src="Twitter.jpg">
+                </div>
+                <div>
+                    <img src="Linkedin.jpg">
+                </div>
+                <div>
+                    <img src="Insta.jpg">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PageSingle">
+                Pages
+            </div>
+            <div class="PagesList">
+                <div>
+                    About Us
+                </div>
+                <div>
+                    Our Projects
+                </div>
+                <div>
+                    Our Team
+                </div>
+                <div>
+                    Contact Us
+                </div>
+                <div>
+                    Services
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PageSingle">
+                Services
+            </div>
+            <div class="PagesList">
+                <div>
+                    Kitchen
+                </div>
+                <div>
+                    Living Area
+                </div>
+                <div>
+                    Bathroom
+                </div>
+                <div>
+                    Dinning Hall
+                </div>
+                <div>
+                    Bedroom
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PageSingle">
+                Contact
+            </div>
+            <div class="ContactsList">
+                <div class="EastBirchwood">
+                    55 East Birchwood Ave. Brooklyn, New York 11201
+                </div>
+                <div>
+                    contact@interno.com
+                </div>
+                <div>
+                    (123) 456 - 7890
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
