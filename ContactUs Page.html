@@ -1,5 +1,579 @@
 <html>
-    <head>
-        
-    </head>
+
+<head>
+    <title>
+        Contact Us Page
+    </title>
+    <style>
+        .Header {
+            margin-top: 40px;
+        }
+
+        .InternoLogo {
+            position: absolute;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-left: 361px;
+        }
+
+        nav {
+            margin-left: 900px;
+            width: 624px;
+            height: 25px;
+        }
+
+        ul {
+            list-style-type: none;
+            word-spacing: 41px;
+        }
+
+        li {
+            display: inline-block;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        li img {
+            width: 21px;
+            height: 21px;
+            opacity: 80%;
+            align-items: center;
+            padding-top: 12px;
+        }
+
+        .KitchenAndAboutUs {
+            margin-top: 100px
+        }
+
+        .KitchenAndAboutUs img {
+            position: relative;
+            width: 1920px;
+            height: 356px;
+        }
+
+        .AboutUsSection {
+            position: absolute;
+            width: 503px;
+            height: 181px;
+            top: 47%;
+            margin-left: 708px;
+            border-radius: 37px 37px 0px 0px;
+            gap: 10px;
+            background-color: white;
+        }
+
+        .AboutUs {
+            width: 347px;
+            height: 96px;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        .AboutUsText {
+            width: 347px;
+            height: 63px;
+            font-family: serif;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 63px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        .HomeAboutUs {
+            width: 154px;
+            height: 33px;
+            font-family: serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            margin: auto;
+        }
+
+        .ContactFormSection {
+            width: 1201px;
+            height: 724px;
+            margin-left: 360px;
+            margin-top: 150px;
+        }
+
+        .WeLoveMeeting {
+            width: 683px;
+            height: 146px;
+            font-family: serif;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 75px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            margin: auto;
+        }
+
+        .ContactForm {
+            width: 1201px;
+            height: 498px;
+            gap: 55px;
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 50px;
+        }
+
+        .Details {
+            width: 349px;
+            height: 436.99px;
+            border-radius: 50px;
+            background: #F4F0EC;
+        }
+
+        .Content {
+            width: 285px;
+            height: 284.99px;
+            Padding: 76px 32px 76px 32px;
+        }
+
+        .SubContent {
+            width: 261px;
+            height: 216px;
+        }
+
+        .Mail {
+            width: 261px;
+            height: 52px;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .Phone {
+            width: 261px;
+            height: 52px;
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 30px;
+        }
+
+        .Address {
+            width: 261px;
+            height: 52px;
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 30px;
+        }
+
+        .Info {
+            padding-top: 12px;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 194px;
+            height: 30px;
+            left: 67px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .Icon1 {
+            width: 52px;
+            height: 52px;
+            clip-path: circle();
+        }
+
+        .SocialIcons img {
+            width: 146.46px;
+            height: 24.99px;
+            padding-top: 45px;
+        }
+
+        .MailBox {
+            width: 797px;
+            height: 498px;
+            gap: 58px
+        }
+
+        .MailContent {
+            width: 797px;
+            height: 365px;
+            gap: 50px
+        }
+
+        .form {
+            width: 795px;
+            height: 45px;
+            gap: 50px;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        input[type=text] {
+            border: none;
+            border-bottom: 2px solid black;
+            width: 100%;
+        }
+
+        .HelloImInterestedIn {
+            grid-column: 1 / span 2;
+            width: 795px;
+            height: 175px;
+            border: 1px;
+        }
+
+        .Hello {
+            padding-top: 100px;
+        }
+
+        .SendNowButton {
+            width: 220.14px;
+            height: 75px;
+            border-radius: 18px;
+            gap: 10px;
+            background-color: #292F36;
+            color: white;
+            margin-left: 570px;
+            margin-top: 40px;
+        }
+
+        .SendNowText {
+            padding: 26px 54px 26px 54px;
+            font-family: serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: 0.02em;
+            text-align: center;
+        }
+
+        .Map {
+            margin-top: 150px;
+            margin-left: 362px
+        }
+
+        .Map img {
+            width: 1199px;
+            height: 501px;
+        }
+
+        .Footer {
+            margin-top: 150px;
+            margin-left: 360px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 110px;
+        }
+
+        .FooterInternoLogo {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .ItsalongEstablishedTextInFooter {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 393px;
+            height: 66px;
+            margin-top: 20px;
+        }
+
+        .fIcon {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0.055em;
+        }
+
+        .Icons {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 80px 80px 80px 80px;
+        }
+
+        .PageSingle {
+            font-family: sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .PagesList {
+            display: grid;
+            grid-template-rows: auto auto auto auto auto;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 66px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 125px;
+        }
+
+        .ContactsList {
+            margin-top: 12px;
+            display: grid;
+            grid-template-rows: auto auto auto;
+            row-gap: 52px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+        }
+
+        .EastBirchwood {
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Header">
+        <div class="InternoLogo">
+            <img src="Logo (1).jpg">
+            Interno
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    Home
+                </li>
+                <li>
+                    Pages
+                </li>
+                <li>
+                    Services
+                </li>
+                <li>
+                    Project
+                </li>
+                <li>
+                    Blog
+                </li>
+                <li>
+                    Contact
+                </li>
+                <li>
+                    <img src="Search.jpg">
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="KitchenAndAboutUs">
+        <img src="ContactUsPhoto.jpg">
+        <div class="AboutUsSection">
+            <div class="AboutUs">
+                <div class="AboutUsText">
+                    Contact Us
+                </div>
+                <div class="HomeAboutUs">
+                    Home / Contact
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ContactFormSection">
+        <div class="WeLoveMeeting">
+            We love meeting new people and helping them.
+        </div>
+        <div class="ContactForm">
+            <div class="Details">
+                <div class="Content">
+                    <div class="SubContent">
+                        <div class="Mail">
+                            <div class="Icon1">
+                                <img src="ContactUsIcon1.jpg">
+                            </div>
+                            <div class="Info">
+                                info@yourdomain.com
+                            </div>
+                        </div>
+                        <div class="Phone">
+                            <div class="Icon1">
+                                <img src="ContactUsIcon2.jpg">
+                            </div>
+                            <div class="Info">
+                                +1 (378) 400-1234
+                            </div>
+                        </div>
+                        <div class="Address">
+                            <div class="Icon1">
+                                <img src="ContactUsIcon3.jpg">
+                            </div>
+                            <div class="Info">
+                                www.yourdomain.com
+                            </div>
+                        </div>
+                    </div>
+                    <div class="SocialIcons">
+                        <img src="SocialIcons.png">
+                    </div>
+                </div>
+            </div>
+            <div class="MailBox">
+                <div class="MailContent">
+                    <div class="form">
+                        <div>
+                            <form>
+                                <label for="name">
+                                    Name
+                                </label>
+                                <div>
+                                    <input type="text" name="name">
+                                </div>
+                            </form>
+                        </div>
+                        <div>
+                            <form>
+                                <label for="Email">
+                                    Email
+                                </label>
+                                <div>
+                                    <input type="text" name="Email">
+                                </div>
+                            </form>
+                        </div>
+                        <div>
+                            <form>
+                                <label for="name">
+                                    Name
+                                </label>
+                                <div>
+                                    <input type="text" name="name">
+                                </div>
+                            </form>
+                        </div>
+                        <div>
+                            <form>
+                                <label for="Email">
+                                    Email
+                                </label>
+                                <div>
+                                    <input type="text" name="Email">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="HelloImInterestedIn">
+                            <form>
+                                <label for="Hello Iam Intrested in..">
+                                    Hello Iam Intrested in..
+                                </label>
+                                <div class="Hello">
+                                    <input type="text" name="Hello Iam Intrested in..">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="SendNowButton">
+                    <div class="SendNowText">
+                        Send Now
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Map">
+        <img src="Map.jpg">
+    </div>
+    <div class="Footer">
+        <div>
+            <div class="FooterInternoLogo">
+                <img src="Logo (1).jpg">
+                Interno
+            </div>
+            <div class="ItsalongEstablishedTextInFooter">
+                It is a long established fact that a reader will be distracted lookings.
+            </div>
+            <div class="Icons">
+                <div class="fIcon">
+                    <img src="Facebook.jpg">
+                </div>
+                <div>
+                    <img src="Twitter.jpg">
+                </div>
+                <div>
+                    <img src="Linkedin.jpg">
+                </div>
+                <div>
+                    <img src="Insta.jpg">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PageSingle">
+                Pages
+            </div>
+            <div class="PagesList">
+                <div>
+                    About Us
+                </div>
+                <div>
+                    Our Projects
+                </div>
+                <div>
+                    Our Team
+                </div>
+                <div>
+                    Contact Us
+                </div>
+                <div>
+                    Services
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PageSingle">
+                Services
+            </div>
+            <div class="PagesList">
+                <div>
+                    Kitchen
+                </div>
+                <div>
+                    Living Area
+                </div>
+                <div>
+                    Bathroom
+                </div>
+                <div>
+                    Dinning Hall
+                </div>
+                <div>
+                    Bedroom
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PageSingle">
+                Contact
+            </div>
+            <div class="ContactsList">
+                <div class="EastBirchwood">
+                    55 East Birchwood Ave. Brooklyn, New York 11201
+                </div>
+                <div>
+                    contact@interno.com
+                </div>
+                <div>
+                    (123) 456 - 7890
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

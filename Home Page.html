@@ -27,33 +27,36 @@
             font-weight: bold;
         }
 
-        nav {
+        .MenuBar {
             margin-left: 876px;
             width: 624px;
             height: 25px;
         }
 
-        ul {
-            list-style-type: none;
-            word-spacing: 41px;
-        }
-
-        li {
-            display: inline-block;
+        .MenuBar a{
             font-family: sans-serif;
             text-align: center;
+            text-decoration: none;
+            color: black;
+            padding-left: 40px;
         }
 
-        li img {
+        .MenuBar img {
             width: 21px;
             height: 21px;
             opacity: 80%;
             align-items: center;
             padding-top: 12px;
+            padding-left: 4px;
         }
 
         .Header {
             width: 1200px;
+            height: 50px;
+            top: 44px;
+            left: 360px;
+            gap: 399px;
+            margin-top: 44px;
         }
 
         .HomePic {
@@ -685,31 +688,29 @@
             <img src="Logo (1).jpg">
             Interno
         </div>
-        <nav>
-            <ul>
-                <li>
-                    Home
-                </li>
-                <li>
-                    Pages
-                </li>
-                <li>
-                    Services
-                </li>
-                <li>
-                    Project
-                </li>
-                <li>
-                    Blog
-                </li>
-                <li>
-                    Contact
-                </li>
-                <li>
-                    <img src="Search.jpg">
-                </li>
-            </ul>
-        </nav>
+        <div class="MenuBar">
+            <a href="Home Page.html">
+                Home
+            </a>
+            <a href="AboutUs Page.html">
+                Pages
+            </a>
+            <a href="Services Page.html">
+                Services
+            </a>
+            <a href="Project Page.html">
+                Project
+            </a>
+            <a href="Blog Page.html">
+                Blog
+            </a>
+            <a href="ContactUs Page.html">
+                Contact
+            </a>
+            <a>
+                <img src="Search.jpg">
+            </a>
+        </div>
     </div>
     <div class="HomePic">
         <img src="Photo.jpg">
