@@ -1,0 +1,1081 @@
+<html>
+
+<head>
+    <title>
+        Home Page
+    </title>
+    <style>
+        .LogoInterno img {
+            width: 34px;
+            height: 34px;
+            margin-top: 8px;
+        }
+
+        .LogoInterno {
+            position: absolute;
+            font-family: serif;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 50px;
+            letter-spacing: 0em;
+            width: 133px;
+            height: 50px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            width: 177px;
+            height: 50px;
+            font-weight: bold;
+        }
+
+        .MenuBar {
+            margin-left: 876px;
+            width: 624px;
+            height: 25px;
+        }
+
+        .MenuBar a{
+            font-family: sans-serif;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            padding-left: 40px;
+        }
+
+        .MenuBar img {
+            width: 21px;
+            height: 21px;
+            opacity: 80%;
+            align-items: center;
+            padding-top: 12px;
+            padding-left: 4px;
+        }
+
+        .Header {
+            width: 1200px;
+            height: 50px;
+            top: 44px;
+            left: 360px;
+            gap: 399px;
+            margin-top: 44px;
+        }
+
+        .HomePic {
+            padding-top: 151px;
+            position: relative;
+        }
+
+        .HomePic img {
+            width: 1500px;
+            height: 934px;
+            border-radius: 48px;
+        }
+
+        .TextInImage {
+            color: black;
+            position: absolute;
+            top: 290px;
+            font-family: serif;
+            font-size: 65px;
+            font-weight: 400;
+            line-height: 81px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 434px;
+            height: 162px;
+            margin-left: 112px;
+        }
+
+        .SecondTextInImage {
+            font-family: Jost;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 433px;
+            height: 66px;
+            position: absolute;
+            top: 450px;
+            margin-left: 112px;
+        }
+
+        .GetStartedButton {
+            position: absolute;
+            top: 540px;
+            margin-left: 112px;
+        }
+
+        .GetStartedButton button {
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 600;
+            line-height: 22.5px;
+            padding-top: 26px;
+            padding-right: 49px;
+            padding-bottom: 26px;
+            padding-left: 48px;
+            width: 220.14px;
+            height: 75px;
+            border-radius: 18px;
+            gap: 10px;
+            background-color: black;
+            color: white;
+        }
+
+        .GetStartedButton img {
+            position: relative;
+            width: 15.14px;
+            height: 13.18px;
+        }
+
+        .GridContainer {
+            display: grid;
+            grid-template-columns: 358px 358px 358px;
+            position: absolute;
+            top: 1200px;
+            text-align: center;
+            margin-left: 60px;
+            column-gap: 132px;
+        }
+
+        .ProjectHeader {
+            font-family: serif;
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 31px;
+            letter-spacing: 0em;
+            font-weight: bold;
+        }
+
+        .AfterProjectHeader {
+            font-family: sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            padding-top: 28px;
+        }
+
+        .GridContainer button {
+            background-color: white;
+            border: none;
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .AboutUs {
+            position: absolute;
+            top: 1600px;
+        }
+
+        .FirstTextInAboutUs {
+            font-family: serif;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 63px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            width: 420px;
+            height: 189px;
+        }
+
+        .SecondTextInAboutUs {
+            font-family: Jost;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 472px;
+            height: 132px;
+            padding-top: 30px;
+        }
+
+        .AboutUs {
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 80px;
+        }
+
+        .CallIcon {
+            width: 93px;
+            height: 93px;
+            padding-top: 30px;
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 35px;
+        }
+
+        .Number {
+            font-family: serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            padding-top: 10px;
+            width: 141px;
+            height: 33px;
+        }
+
+        .CallUsAnyTime {
+            font-family: serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 169px;
+            height: 31px;
+        }
+
+        .Photo_1 img {
+            width: 700px;
+            height: 653px;
+            border-radius: 0px 326.5px 0px 123px;
+        }
+
+        .AboutUsGrid1 {
+            padding-top: 25px;
+            padding-left: 120px;
+        }
+
+        .GetFreeEstimateButton {
+            padding-top: 45px;
+        }
+
+        .GetFreeEstimateButton button {
+            border: none;
+            background-color: black;
+            color: white;
+            font-family: serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            width: 238.14px;
+            height: 75px;
+            padding: 26px, 31px, 26px, 31px;
+            border-radius: 18px;
+        }
+
+        .Testinomial {
+            width: 1199px;
+            height: 679px;
+            left: 140px;
+            position: absolute;
+            top: 2500px;
+            background-color: #F4F0EC;
+            border-radius: 50px;
+        }
+
+        .FirstTextInTestinomial {
+            text-align: center;
+            font-family: serif;
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 63px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            width: 547px;
+            height: 126px;
+            padding-left: 328px;
+            padding-top: 100px;
+        }
+
+        .Contents {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .TestinomialContainer {
+            width: 370px;
+            height: 339px;
+            background-color: #FFFFFF;
+            margin-left: 20px;
+            margin-top: 30px;
+            border-radius: 50px;
+        }
+
+        .Content {
+            display: grid;
+            grid-template-columns: 88px auto;
+            column-gap: 12px;
+        }
+
+        .Content img {
+            width: 77px;
+            height: 77px;
+            clip-path: circle();
+            margin-top: 48px;
+            margin-left: 38px;
+        }
+
+        .Content p {
+            float: right;
+            margin-top: 58px;
+            margin-left: 42px;
+            font-size: 25px;
+            font-family: serif;
+            font-weight: 550;
+        }
+
+        .LoremIpsum {
+            font-family: serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 296px;
+            height: 99px;
+            margin-left: 38px;
+            margin-top: 0px;
+        }
+
+        .ClientLogo {
+            position: absolute;
+            top: 3300px;
+            margin-left: 200px;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            column-gap: 100px;
+        }
+
+        .ClientLogo1 img {
+            width: 131.28px;
+            height: 42.37px;
+            padding-top: 15px;
+        }
+
+        .ClientLogo2 img {
+            width: 102.32px;
+            height: 102.32px;
+        }
+
+        .ClientLogo3 img {
+            width: 163.38px;
+            height: 42.78px;
+            padding-top: 18px;
+        }
+
+        .ClientLogo4 img {
+            width: 144.7px;
+            height: 44.06px;
+            padding-top: 18px;
+        }
+
+        .ClientLogo5 img {
+            width: 116.71px;
+            height: 47.16px;
+            padding-top: 15px;
+        }
+
+        .Projects {
+            top: 3500px;
+            position: absolute;
+        }
+
+        .FirstTextInProjects {
+            width: 451px;
+            height: 63px;
+            font-family: serif;
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 63px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            margin-left: 528px;
+        }
+
+        .SecondTextInProjects {
+            width: 737px;
+            height: 66px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            margin-left: 400px;
+            margin-top: 20px;
+        }
+
+        .Image {
+            width: 525px;
+            height: 548px;
+            margin-left: 120px;
+            margin-top: 100px;
+        }
+
+        .ModernKitchen {
+            font-family: serif;
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 31px;
+            letter-spacing: 0.02em;
+            text-align: left;
+        }
+
+        .Decor {
+            font-family: serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+        }
+
+        .Kitchen {
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-left: 120px;
+            column-gap: 280px;
+        }
+
+        .VectorButton {
+            background: #F4F0EC;
+            width: 70px;
+            height: 70px;
+            clip-path: circle();
+        }
+
+        .VectorButton img {
+            width: 20px;
+            height: 18px;
+            top: 44px;
+            left: 517px;
+            border: 2px;
+            text-align: center;
+            padding-top: 25px;
+            padding-left: 25px;
+        }
+
+        .ProjectsImages {
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 25px;
+        }
+
+        .Counter {
+            position: absolute;
+            background-color: #F4F0EC;
+            width: 1500px;
+            height: 457px;
+            top: 5257px;
+        }
+
+        .Counter1 {
+            width: 1, 082px;
+            height: 155px;
+            padding: 160px;
+            margin-left: 50px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        .NumberAndYearsOfExperience {
+            border-right: 1px solid #CDA274;
+            width: 246px;
+            height: 155px;
+        }
+
+        .Twelve {
+            width: 77px;
+            height: 106px;
+            font-family: serif;
+            font-size: 85px;
+            font-weight: 400;
+            line-height: 106px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #CDA274;
+            padding-left: 45px;
+        }
+
+        .YearsOfExperience {
+            height: 33px;
+            font-family: sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+        }
+
+        .ArticlesAndNewsSection {
+            position: absolute;
+            top: 6000px;
+        }
+
+        .ArticlesAndNews {
+            width: 362px;
+            height: 63px;
+            font-family: serif;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 63px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            margin-left: 580px;
+        }
+
+        .ItIsEstablishedText {
+            width: 811px;
+            height: 66px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            margin-left: 350px;
+        }
+
+        .Blog {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            margin-top: 46px;
+            margin-left: 116px;
+        }
+
+        .WannaJoinSection {
+            position: absolute;
+            top: 6828px;
+            width: 620px;
+            height: 250px;
+            left: 160px;
+            padding: 80px 315px 80px 315px;
+            border-radius: 70px;
+            gap: 10px;
+            background-color: black;
+        }
+
+        .WannaJoinTheInterno {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 63px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: white;
+        }
+
+        .ItsalongEstablished {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            color: white;
+        }
+
+        .ContactWithUsInWannaJoin {
+            width: 237.14px;
+            height: 75px;
+            border-radius: 18px;
+            gap: 10px;
+            background-color: #CDA274;
+            margin-left: 200px;
+            margin-top: 70px;
+        }
+
+        .ContactWithUsText {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: white;
+            padding: 26px 37px 26px 37px;
+        }
+
+        .Footer {
+            left: 160px;
+            position: absolute;
+            top: 7300px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 110px;
+        }
+
+        .InternoLogo {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+
+        .ItsalongEstablishedTextInFooter {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 393px;
+            height: 66px;
+            margin-top: 20px;
+        }
+
+        .fIcon {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0.055em;
+        }
+
+        .Icons {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 80px 80px 80px 80px;
+        }
+
+        .PageSingle {
+            font-family: sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .PagesList {
+            display: grid;
+            grid-template-rows: auto auto auto auto auto;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 66px;
+            letter-spacing: 0.01em;
+            text-align: left;
+        }
+
+        .ContactsList {
+            margin-top: 12px;
+            display: grid;
+            grid-template-rows: auto auto auto;
+            row-gap: 52px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.01em;
+            text-align: left;
+        }
+
+        .EastBirchwood {
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Header">
+        <div class="LogoInterno">
+            <img src="Logo (1).jpg">
+            Interno
+        </div>
+        <div class="MenuBar">
+            <a href="Home Page.html">
+                Home
+            </a>
+            <a href="AboutUs Page.html">
+                Pages
+            </a>
+            <a href="Services Page.html">
+                Services
+            </a>
+            <a href="Project Page.html">
+                Project
+            </a>
+            <a href="Blog Page.html">
+                Blog
+            </a>
+            <a href="ContactUs Page.html">
+                Contact
+            </a>
+            <a>
+                <img src="Search.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="HomePic">
+        <img src="Photo.jpg">
+        <div class="TextInImage">
+            Let Your Home Be Unique
+        </div>
+        <div class="SecondTextInImage">
+            There are many variations of the passages of lorem Ipsum from available, majority.
+        </div>
+        <div class="GetStartedButton">
+            <button>
+                Get Started
+            </button>
+        </div>
+    </div>
+    <div class="GridContainer">
+        <div class="grid1">
+            <div class="ProjectHeader">
+                Project Plan
+            </div>
+            <div class="AfterProjectHeader">
+                There are many variations of the passages of lorem Ipsum from available, majority.
+            </div>
+            <button>
+                Read More
+            </button>
+        </div>
+        <div class="grid2">
+            <div class="ProjectHeader">
+                Interior Work
+            </div>
+            <div class="AfterProjectHeader">
+                There are many variations of the passages of lorem Ipsum from available, majority.
+            </div>
+            <button>
+                Read More
+            </button>
+        </div>
+        <div class="grid3">
+            <div class="ProjectHeader">
+                Realization
+            </div>
+            <div class="AfterProjectHeader">
+                There are many variations of the passages of lorem Ipsum from available, majority.
+            </div>
+            <button>
+                Read More
+            </button>
+        </div>
+    </div>
+    <div class="AboutUs">
+        <div class="AboutUsGrid1">
+            <div class="FirstTextInAboutUs">
+                We Create The Art Of Stylish Living Stylishly
+            </div>
+            <div class="SecondTextInAboutUs">
+                It is a long established fact that a reader will be distracted by the of readable content of a page when
+                lookings at its layouts the points of using that it has a more-or-less normal.
+            </div>
+            <div class="CallIcon">
+                <img src="Call Icon.jpg">
+                <div class="Number">
+                    012345678
+                    <div class="CallUsAnyTime">
+                        Call Us Anytime
+                    </div>
+                </div>
+            </div>
+            <div class="GetFreeEstimateButton">
+                <button>
+                    Get Free Estimate
+                </button>
+            </div>
+        </div>
+        <div class="Photo_1">
+            <img src="Photo_1.jpg">
+        </div>
+    </div>
+    <div class="Testinomial">
+        <div class="FirstTextInTestinomial" style="text-align: center;">
+            What the People Thinks About Us
+        </div>
+        <div class="Contents">
+            <div class="TestinomialContainer">
+                <div class="Content">
+                    <img src="Face_pic_1.jpg">
+                    <p>
+                        Nattasha Mith Sydney, USA
+                    </p>
+                    <div class="LoremIpsum">
+                        Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.
+                    </div>
+                </div>
+            </div>
+            <div class="TestinomialContainer">
+                <div class="Content">
+                    <img src="Face_pic_2.jpg">
+                    <p>
+                        Raymond Galario Sydney, Australia
+                    </p>
+                    <div class="LoremIpsum">
+                        Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been scrambled it to
+                        make a type book.
+                    </div>
+                </div>
+            </div>
+            <div class="TestinomialContainer">
+                <div class="Content">
+                    <img src="Face_pic_3.jpg">
+                    <p>
+                        Benny Roll Sydney, New York
+                    </p>
+                    <div class="LoremIpsum">
+                        Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been scrambled.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ClientLogo">
+        <div class="ClientLogo1">
+            <img src="01.jpg">
+        </div>
+        <div class="ClientLogo2">
+            <img src="02.jpg">
+        </div>
+        <div class="ClientLogo3">
+            <img src="03.jpg">
+        </div>
+        <div class="ClientLogo4">
+            <img src="04.jpg">
+        </div>
+        <div class="ClientLogo5">
+            <img src="05.jpg">
+        </div>
+    </div>
+    <div class="Projects">
+        <div class="FirstTextInProjects">
+            Follow Our Projects
+        </div>
+        <div class="SecondTextInProjects">
+            It is a long established fact that a reader will be distracted by the of readable content of page lookings
+            at its layouts points.
+        </div>
+        <div class="ProjectsImages">
+            <div>
+                <div class="Image">
+                    <img src="Image.jpg">
+                </div>
+                <div class="Kitchen">
+                    <div class="ModernKitchen">
+                        Modern Kitchen
+                        <div class="Decor">
+                            Decor / Architecture
+                        </div>
+                    </div>
+                    <div class="VectorButton">
+                        <img src="Vector_on_Beige.jpg">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="Image">
+                    <img src="Image1.jpg">
+                </div>
+                <div class="Kitchen">
+                    <div class="ModernKitchen">
+                        Modern Kitchen
+                        <div class="Decor">
+                            Decor / Architecture
+                        </div>
+                    </div>
+                    <div class="VectorButton">
+                        <img src="Vector_on_Beige.jpg">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="Image">
+                    <img src="Image2.jpg">
+                </div>
+                <div class="Kitchen">
+                    <div class="ModernKitchen">
+                        Modern Kitchen
+                        <div class="Decor">
+                            Decor / Architecture
+                        </div>
+                    </div>
+                    <div class="VectorButton">
+                        <img src="Vector_on_Beige.jpg">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="Image">
+                    <img src="Image3.jpg">
+                </div>
+                <div class="Kitchen">
+                    <div class="ModernKitchen">
+                        Modern Kitchen
+                        <div class="Decor">
+                            Decor / Architecture
+                        </div>
+                    </div>
+                    <div class="VectorButton">
+                        <img src="Vector_on_Beige.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Counter">
+        <div class="Counter1">
+            <div class="NumberAndYearsOfExperience">
+                <div class="Twelve">
+                    12
+                </div>
+                <div class="YearsOfExperience">
+                    Years Of Experience
+                </div>
+            </div>
+            <div class="NumberAndYearsOfExperience">
+                <div class="Twelve">
+                    12
+                </div>
+                <div class="YearsOfExperience">
+                    Years Of Experience
+                </div>
+            </div>
+            <div class="NumberAndYearsOfExperience">
+                <div class="Twelve">
+                    12
+                </div>
+                <div class="YearsOfExperience">
+                    Years Of Experience
+                </div>
+            </div>
+            <div class="NumberAndYearsOfExperience">
+                <div class="Twelve">
+                    12
+                </div>
+                <div class="YearsOfExperience">
+                    Years Of Experience
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ArticlesAndNewsSection">
+        <div class="ArticlesAndNews">
+            Articles & News
+        </div>
+        <div class="ItIsEstablishedText">
+            It is a long established fact that a reader will be distracted by the of readable content of a page when
+            lookings at its layouts the points of using.
+        </div>
+        <div class="Blog">
+            <div>
+                <img src="1.jpg">
+            </div>
+            <div>
+                <img src="2.jpg">
+            </div>
+            <div>
+                <img src="3.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="WannaJoinSection">
+        <div class="WannaJoinTheInterno">
+            Wanna join the interno?
+        </div>
+        <div class="ItsalongEstablished">
+            It is a long established fact will be distracted.
+        </div>
+        <div class="ContactWithUsInWannaJoin">
+            <div class="ContactWithUsText">
+                Contact With Us
+            </div>
+        </div>
+    </div>
+    <div class="Footer">
+        <div class="Interno">
+            <div class="InternoLogo">
+                <img src="Logo (1).jpg">
+                Interno
+            </div>
+            <div class="ItsalongEstablishedTextInFooter">
+                It is a long established fact that a reader will be distracted lookings.
+            </div>
+            <div class="Icons">
+                <div class="fIcon">
+                    <img src="Facebook.jpg">
+                </div>
+                <div>
+                    <img src="Twitter.jpg">
+                </div>
+                <div>
+                    <img src="Linkedin.jpg">
+                </div>
+                <div>
+                    <img src="Insta.jpg">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PageSingle">
+                Pages
+            </div>
+            <div class="PagesList">
+                <div>
+                    About Us
+                </div>
+                <div>
+                    Our Projects
+                </div>
+                <div>
+                    Our Team
+                </div>
+                <div>
+                    Contact Us
+                </div>
+                <div>
+                    Services
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PageSingle">
+                Services
+            </div>
+            <div class="PagesList">
+                <div>
+                    Kitchen
+                </div>
+                <div>
+                    Living Area
+                </div>
+                <div>
+                    Bathroom
+                </div>
+                <div>
+                    Dinning Hall
+                </div>
+                <div>
+                    Bedroom
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="PageSingle">
+                Contact
+            </div>
+            <div class="ContactsList">
+                <div class="EastBirchwood">
+                    55 East Birchwood Ave. Brooklyn, New York 11201
+                </div>
+                <div>
+                    contact@interno.com
+                </div>
+                <div>
+                    (123) 456 - 7890
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
